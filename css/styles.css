@@ -1,0 +1,607 @@
+.Top-Barp {
+    max-width: 100%; 
+    width: auto; 
+    height: 80px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+}
+
+.titleNavBar {
+    height: 36px;
+    flex-grow: 1;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+/* Estilos básicos para el navbar */
+.navbarp {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+  }
+  
+  .navbar-listp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar-itemp {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar-itemp:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-itemp a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-itemp a:hover {
+    color: #ff6600;
+  }
+  .section1 {
+    height: 336px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 0; /* Elimina el relleno para que la imagen ocupe todo el espacio */
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .imagen-seccionp {
+    width: 100%;
+    height: 100%; /* La altura se ajustará automáticamente para mantener la proporción original */
+    display: block;
+    object-fit: cover; /* Hace que la imagen cubra todo el espacio sin distorsionarse */
+  }
+
+  .containerHome {
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    position: absolute; /* Establece el posicionamiento absoluto para el div */
+    top: 0; /* Coloca el div en la parte superior de la sección */
+    left: 0; /* Coloca el div en la esquina superior izquierda */
+    background-color: rgba(0, 0, 0, 0.249); /* Fondo del div */
+    padding: 20px; /* Espacio interior del div */
+    color: #fff; /* Color del texto del div */
+    align-content: center;
+  }
+
+
+  .descriptionHome {
+    width: 520px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+
+  .titleHome {
+    width: 520px;
+    height: 96px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  .primaryHome {
+    width: 160px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #000;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .primaryHome:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  .titlePrimaryHome {
+    width: 59px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center; /* Alinea el texto al centro */
+    color: #fff;
+  }
+  
+  .sectionPP {
+    height: 724px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 170px;
+  }
+  .containerPP {
+    height: 604px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+  }
+  .titlePP {
+    width: 520px;
+    height: 48px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+  }
+  .primaryPP {
+    width: 195px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #000;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .primaryPP:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  .titlePrimaryPP {
+    width: 171px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center; /* Alinea el texto al centro */
+    color: #fff;
+  }
+  
+
+  .listPP {
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+  }
+  
+  .list-item {
+    display: inline-block; /* Coloca los elementos en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+    width: 220px; /* Ancho de cada tarjeta */
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 8px;
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .imagePP {
+    padding: 16px;
+  }
+  
+  .text-contentPP {
+    padding: 12px;
+  }
+  
+  .titlePP2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #000;
+  }
+  
+  .subtitlePP {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+    color: #000;
+  }
+  
+
+  .Top-Bar {
+    width: 1440px;
+    height: 80px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+}
+
+.titleNavBar {
+    height: 36px;
+    flex-grow: 1;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+/* Estilos básicos para el navbar */
+.navbar {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar-item {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item a:hover {
+    color: #ff6600;
+  }
+  .section1 {
+    height: 336px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 0; /* Elimina el relleno para que la imagen ocupe todo el espacio */
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .imagen-seccion {
+    width: 100%;
+    height: 100%; /* La altura se ajustará automáticamente para mantener la proporción original */
+    display: block;
+    object-fit: cover; /* Hace que la imagen cubra todo el espacio sin distorsionarse */
+  }
+
+  .containerHome {
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    position: absolute; /* Establece el posicionamiento absoluto para el div */
+    top: 0; /* Coloca el div en la parte superior de la sección */
+    left: 0; /* Coloca el div en la esquina superior izquierda */
+    background-color: rgba(0, 0, 0, 0.249); /* Fondo del div */
+    padding: 20px; /* Espacio interior del div */
+    color: #fff; /* Color del texto del div */
+    align-content: center;
+  }
+
+
+  .descriptionHome {
+    width: 520px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+
+  .titleHome {
+    width: 520px;
+    height: 96px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  .primaryHome {
+    width: 160px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #000;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .primaryHome:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  .titlePrimaryHome {
+    width: 59px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center; /* Alinea el texto al centro */
+    color: #fff;
+  }
+  
+  .sectionPP {
+    height: 724px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 170px;
+    max-width: 100%; /* Establece un ancho máximo para el contenedor */
+    width: auto; 
+  }
+  .containerPP {
+    height: 604px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+    max-width: 100%; /* Establece un ancho máximo para el contenedor */
+    width: auto; 
+  }
+  .titlePP {
+    width: 520px;
+    height: 48px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+  }
+  .primaryPP {
+    width: 195px;
+    height: 30px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #000;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .primaryPP:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  .titlePrimaryPP {
+    width: 171px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center; /* Alinea el texto al centro */
+    color: #fff;
+  }
+  
+
+  .listPP {
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+  }
+  
+  .list-item {
+    display: inline-block; /* Coloca los elementos en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+    width: 220px; /* Ancho de cada tarjeta */
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 8px;
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .imagePP {
+    padding: 16px;
+  }
+  
+  .text-contentPP {
+    padding: 12px;
+  }
+  
+  .titlePP2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #000;
+  }
+  
+  .subtitlePP {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+    color: #000;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.owl-carousel .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 600px) {
+    .owl-carousel .item {
+        width: 80%; /* Establece el ancho deseado para dispositivos móviles */
+    }
+}
+
+  
+
+
+  
