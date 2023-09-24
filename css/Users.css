@@ -113,3 +113,9 @@
 .registrase:hover {
     background-color: #0056b3; /* Cambia el color de fondo en el estado de "hover" */
 }
+
+
+.ainiciar {
+    color: inherit; /* Hereda el color del texto de su elemento padre */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+}
