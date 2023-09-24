@@ -1,0 +1,1 @@
+// document.getElementById('NavBar-container').innerHTML = '<object class="NavBar-container" type="text/html" data="Components/NavBar.html"></object>';
