@@ -99,7 +99,7 @@ $(document).ready(function () {
                 <div class="card">
                     <img src="${producto.imagen}" alt="${producto.nombre}">
                     <div class="card-body">
-                        <a href="D:\\MFAB\\Universidad\\FrontEnd\\Entrega2Sem5\\git\\SavoryMart\\Pages\\DetallesProducto.html?producto=${encodeURIComponent(producto.nombre)}"  target="_top" class="custom-link">
+                        <a href="..\\Pages\\DetallesProducto.html?producto=${encodeURIComponent(producto.nombre)}"  target="_top" class="custom-link">
                             <h5 class="card-title">${producto.nombre}</h5>
                         </a>
                         <p class="card-text">$${producto.precio.toFixed(2)}</p>
